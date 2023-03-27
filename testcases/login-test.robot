@@ -9,7 +9,7 @@ Test Teardown    Close Browser
 
 *** Variables ***
 ${VALID_EMAIL}       jananiayeshika1@gmail.com
-${VALID_PASSWORD}    QA#123
+${VALID_PASSWORD}    Jani#123
 
 ${INVALID_EMAIL}       jananiayeshika2@gmail.com
 ${INVALID_PASSWORD}    QA#124

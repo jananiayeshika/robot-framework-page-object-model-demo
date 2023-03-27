@@ -11,9 +11,9 @@ Navigate To The Login Page
     Click Element    ${CONTINUE_WITH_EMAIL_BUTTON}
 
 Login With ${email} And ${password} 
-    Input Text    ${EMAIL_TEXT_BOX}    ${email}
-    Input Text    ${PASSWORD_TEXT_BOX}    ${password}
-    Click Element    ${LOGIN_BUTTON}
+    Input Text        ${EMAIL_TEXT_BOX}        ${email}
+    Input Text        ${PASSWORD_TEXT_BOX}     ${password}
+    Click Element     ${LOGIN_BUTTON}
 
 Incorrect Credentials Error Message Should Be Visible
     Wait Until Element Is Visible    ${INCORRECT_CREDENTIALS_ERROR_MESSAGE}    30s
