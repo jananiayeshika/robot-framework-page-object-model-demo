@@ -21,3 +21,10 @@ Verify that a user can see the details of ads that need editing
     District Of The Ads That Needs Editing Should Be Colombo
     Subcategory Name of The Ads That Needs Editing Should be Room & Annex Rentals
     Price Of The Ads That Needs Editing Should Be Rs 5,000 /month
+
+Verify that a user can see the details of published ads
+    Click My Account Icon
+    Title Of The Published Ads Should Be House Cleaning
+    District Of The Published Ads Should Be Colombo
+    Subcategory Name Of The Published Ads Should Be Domestic Services
+    Price Of The Published Ads Should Be Rs 2,000
