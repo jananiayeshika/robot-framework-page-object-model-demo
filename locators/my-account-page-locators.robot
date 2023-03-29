@@ -8,3 +8,4 @@ ${PUBLISHED_AD_TITLE}                            xpath = (//a[@class = 'item-tit
 ${DISTRICT_OF_PUBLISHED_AD}                      xpath = (//span[@class = 'item-area'])[2]
 ${SUBCATEGORY_NAME_OF_PUBLISHED_AD}              xpath = (//span[@class = 'item-cat'])[2]
 ${PRICE_OF_PUBLISHED_AD}                         xpath = (//p[@class = 'item-info'])[2]
+${EDIT_BUTTON}                                   xpath = //a[@class= 'ui-btn is-secondary btn-edit is-s']

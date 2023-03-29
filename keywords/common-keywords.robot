@@ -17,3 +17,7 @@ Login To The Application
 
 ${value_1} Should Be Larger Than ${value_2}
     Run Keyword If    ${value_1} <= ${value_2}    Fail    The value ${value_1} is not larger than ${value_2}
+
+Check Page URL contains ${text}
+    ${url}    Get Location
+    Should Contain    ${url}    ${text}

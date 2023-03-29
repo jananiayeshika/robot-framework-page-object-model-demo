@@ -31,4 +31,6 @@ Subcategory Name Of The Published Ads Should Be ${sub_category_name}
 Price Of The Published Ads Should Be ${ad_price}
     Scroll Element Into View    ${PRICE_OF_PUBLISHED_AD}    
     Element Text Should Be      ${PRICE_OF_PUBLISHED_AD}                         ${ad_price}
-                          
+
+Click Edit Button In User Posted Ad
+    Click Element    ${EDIT_BUTTON}       

@@ -7,7 +7,7 @@ Resource    ../keywords/common-keywords.robot
 Documentation     This robot file contains My account test cases related to ikman.lk
 
 Test Setup        Login To The Application
-Task Teardown     Close Browser
+Test Teardown     Close Browser
 
 *** Test Cases ***
 Verify that the ads posted by the user display on My account page
